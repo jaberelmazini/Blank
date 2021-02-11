@@ -2,8 +2,6 @@ FROM node:alpine
 
 USER gitpod
 
-RUN adduser gitpod sudo
-
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
